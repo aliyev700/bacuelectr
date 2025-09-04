@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/css/splide.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+    }
+  </script>
+
+
+</head>
+<body class=" bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-500">
+
+    <header id="mainHeader" class="w-full bg-white dark:bg-gray-900 transition-colors duration-500">
+      <div class="max-w-7xl mx-auto flex justify-between items-center p-3 h-[50px] gap-8 rounded-[25px] border  transition-colors duration-500">
+        
+        <ul class="flex gap-6 text-[14px]">
+          <li class="text-gray-900 dark:text-white hover:text-black transition-colors duration-200">Kampaniyalar</li>
+          <li class="text-gray-500 dark:text-white hover:text-black transition-colors duration-200">Korporativ satışlar</li>
+          <li class="text-gray-500 dark:text-white hover:text-black transition-colors duration-200">Mağazalar</li>
+          <li class="text-gray-500 dark:text-white hover:text-black transition-colors duration-200">Aylıq ödəniş</li>
+          <li class="text-gray-500 dark:text-white hover:text-black transition-colors duration-200">Aktiv müqavilələr</li>
+          <li class="text-gray-500 dark:text-white hover:text-black transition-colors duration-200">Digər</li>
+          <a href="./admin copy.html">ADMIN PANEL</a>
+          
+        </ul>
+  
+    
+
+        <div class="flex justify-center items-center ">
+            <input type="checkbox" id="themeCheckbox" class="hidden">
+            <label for="themeCheckbox" class="relative w-16 h-8 bg-gray-300 dark:bg-gray-700 rounded-full cursor-pointer transition-colors duration-500">
+             
+              <span class=" relative left-1 top-1 text-yellow-400 text-lg transition-opacity duration-500" id="sun">☀️</span>
+         
+              <span class="absolute right-1 top-1 text-yellow-400 text-lg opacity-0 transition-opacity duration-500" id="moon">🌙</span>
+     
+              <span class="relative top-1 left-1 w-6 h-6 bg-white rounded-full shadow-md transition-all duration-500" id="toggleBall"></span>
+            </label>
+        </div>
+          
+  
+      </div>
+
+
+
+    
+
+      <div class="logos max-w-7xl mx-auto flex items-center p-3 bg-white dark:bg-gray-900 transition-colors duration-500">
+        <img src="https://img.b-e.az/media/logo/baku-electronics-logo_QJeQcxF.svg" alt="">
+        <button class="ml-3 p-3 rounded-[29px] bg-black dark:bg-gray-700 text-white dark:text-gray-200 font-bold">
+          <i class="ri-crosshair-2-line"></i> Katalog
+        </button>
+        <input class="outline-none ml-3 p-3 w-[840px] rounded-[10px] bg-[#f5f5f5] dark:bg-gray-800 text-black dark:text-gray-200" type="text" placeholder="Mehsul Axtar...">
+        <ul class="flex ml-5 gap-2">
+          <li class="text-black dark:text-gray-200 text-[26px] bg-[#f5f5f5] dark:bg-gray-800 rounded-[15px] p-2"><i class="ri-scales-3-line"></i></li>
+          <li class="text-black dark:text-gray-200 text-[26px] bg-[#f5f5f5] dark:bg-gray-800 rounded-[15px] p-2"><i class="ri-shopping-cart-fill"></i></li>
+          <li class="text-black dark:text-gray-200 text-[26px] bg-[#f5f5f5] dark:bg-gray-800 rounded-[15px] p-2"><i class="ri-poker-hearts-line"></i></li>
+          <li class="text-black dark:text-gray-200 text-[26px] bg-[#f5f5f5] dark:bg-gray-800 rounded-[15px] p-2"><i class="ri-user-6-line"></i></li>
+        </ul>
+      </div>
+      
+    </header>
+
+
+ <main class=" w-full bg-white dark:bg-gray-900 transition-colors duration-500 ">
+
+
+  <div class="containerr max-w-7xl mx-auto">
+
+    <div class="   container  max-w-7xl mx-auto">
+        
+        <div class="w-full max-w-3xl ">
+          <div class="swiper rounded-2xl shadow-lg w-[1240px] h-[540px]">
+          
+            <div class="swiper-wrapper">
+              <div class=" mt-10  swiper-slide flex  h-[540px] ">
+              
+                <img class="w-[840px]" src="https://www.apple.com/assets-www/en_WW/mac/image_accordion/xlarge/mac_iphone_f1da8c167_2x.jpg" alt="">
+                <img src="https://new.bakuelectronics.az/_next/image?url=https%3A%2F%2Fimg.b-e.az%2Fmedia%2Fpage%2Fslider%2F923x520_copy_31.jpg&w=3840&q=100" alt="">
+              </div>
+              <div class="swiper-slide flex items-center justify-center  w-[840px] h-[590px]">
+                <img class="h-[600px] w-[800px] ml-[752px] shadow-2xl" src="https://new.bakuelectronics.az/_next/image?url=https%3A%2F%2Fimg.b-e.az%2Fmedia%2Fpage%2Fslider%2FiPhone16923520.jpg&w=3840&q=100" alt="">
+              </div>
+              <div class="swiper-slide flex items-center justify-center h-64">
+                <img class="mt-[292px] shadow-2xl ml-46 rounded-2xl shadow-2xl h-[530px] w-[1050px]" src="https://new.bakuelectronics.az/_next/image?url=https%3A%2F%2Fimg.b-e.az%2Fmedia%2Fpage%2Fslider%2Fdyson923520.jpg&w=3840&q=100" alt="">
+         
+              </div>
+            </div>
+      
+ 
+            <div class="swiper-button-next rounded-xl bg-white w-[60px] p-6 !text-black"></div>
+            <div class="swiper-button-prev rounded-xl bg-white w-[60px] p-6 !text-black"></div>
+      
+          
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+     <div class="   arxayinolanlar flex gap-10 mt-6  ">
+
+      <div class="arxayin w-[280px] w-[190px] border bg-[#E8E8E8] rounded-xl  p-5  dark:bg-gray-800 dark:border-gray-700 dark:text-gray-200 transition-colors duration-500">
+         
+        <img class="h-[35px] w-[35px] border bg-[#C7C7C7] rounded-xl p-1 dark:filter dark:invert dark:brightness-150 transition duration-500" 
+     src="https://img.b-e.az/media/feature_icons/istockphoto-1294860858-612x612-_1__bfu0cVT.svg" alt="">
+
+        <h1 class="text-[20px] font-bold mt-4    text-[20px] font-bold mt-4 dark:text-yellow-400">Arxayın al!</h1>
+        <p class="dark:text-gray-300">30 gün müddətində istər dəyiş, istər geri qaytar.</p>
+      </div>
+
+      <div class="arxayin w-[280px] w-[190px] border bg-[#E8E8E8] rounded-xl  p-5  dark:bg-gray-800 dark:border-gray-700 dark:text-gray-200 transition-colors duration-500">
+        
+        <img class="h-[35px] w-[35px] border bg-[#C7C7C7] rounded-xl p-1 dark:filter dark:invert dark:brightness-150 transition duration-500" 
+     src="https://img.b-e.az/media/feature_icons/istockphoto-1294860858-612x612-_1__bfu0cVT.svg" alt="">
+
+        <h1 class="text-[20px] font-bold mt-4    text-[20px] font-bold mt-4 dark:text-yellow-400">Arxayın al!</h1>
+        <p class="dark:text-gray-300">30 gün müddətində istər dəyiş, istər geri qaytar.</p>
+      </div>
+
+      <div class="arxayin w-[280px] w-[190px] border bg-[#E8E8E8] rounded-xl  p-5  dark:bg-gray-800 dark:border-gray-700 dark:text-gray-200 transition-colors duration-500">
+        
+        <img class="h-[35px] w-[35px] border bg-[#C7C7C7] rounded-xl p-1 dark:filter dark:invert dark:brightness-150 transition duration-500" 
+     src="https://img.b-e.az/media/feature_icons/istockphoto-1294860858-612x612-_1__bfu0cVT.svg" alt="">
+
+        <h1 class="text-[20px] font-bold mt-4    text-[20px] font-bold mt-4 dark:text-yellow-400">Arxayın al!</h1>
+        <p class="dark:text-gray-300">30 gün müddətində istər dəyiş, istər geri qaytar.</p>
+      </div>
+
+      <div class="arxayin w-[280px] w-[190px] border bg-[#E8E8E8] rounded-xl  p-5  dark:bg-gray-800 dark:border-gray-700 dark:text-gray-200 transition-colors duration-500">
+         
+        <img class="h-[35px] w-[35px] border bg-[#C7C7C7] rounded-xl p-1 dark:filter dark:invert dark:brightness-150 transition duration-500" 
+     src="https://img.b-e.az/media/feature_icons/istockphoto-1294860858-612x612-_1__bfu0cVT.svg" alt="">
+
+        <h1 class="text-[20px] font-bold mt-4    text-[20px] font-bold mt-4 dark:text-yellow-400">Arxayın al!</h1>
+        <p class="dark:text-gray-300">30 gün müddətində istər dəyiş, istər geri qaytar.</p>
+      </div>
+  
+     
+
+    </div>
+
+  
+
+
+    <div class="coxsatilanlar mt-18">
+      <p class="  text-gray-900 dark:text-gray-200 transition-colors duration-500  text-[#ED2939] text-[18px]">Ən çox satılanlar</p>
+      <h1 class=" text-gray-900 dark:text-gray-200 transition-colors duration-500   font-bold text-[28px]">Bu məhsullar hər kəsin sevimlisidir!</h1>
+    </div>
+
+
+
+
+    <div id="properties-list-1" class="flex flex-row flex-wrap gap-4 mt-10  h-[1500px]  ">
+
+    <div class="honor   dark:bg-gray-800 dark:border-gray-700 dark:text-gray-200 transition-colors duration-500   mt-12 p-4 rounded-2xl w-[240px] h-[380px] bg-white shadow-xl bg-[#EDE8E8]">
+      
+      <img class=" mb-5 relative bottom-[48px] border shadow-2xl rounded-2xl left-8   w-[140px]" src="https://new.bakuelectronics.az/_next/image?url=https%3A%2F%2Fimg.b-e.az%2Fmedia%2FinventImages%2FinventImages%2FHONOR_X9C_JADE_CYAN_1.webp&w=750&q=75" alt="">
+   
+
+
+
+
+      
+     
+     
+
+      <div class="honorstext  relative bottom-[64px]">
+        
+              <div class="  star flex gap-4">
+                <i class=" text-[#880808] ri-star-line"></i>
+                <p>0</p>
+                <i class="text-[#880808] ri-chat-1-line"></i>
+                <p>0</p>
+              </div>
+              <p class="text-[19px] mt-2  ">Smartfon HONOR X9C <br> 12GB/256GB JADE CYAN</p>
+        
+              <div class="price mt-2 ">
+                <p class=" text-gray text-[14px]"> <s>579.99 ₼</s> </p>
+                <p>439.99 ₼</p>
+              </div>
+        
+              <div class="buttons flex mt-4 gap-1">
+                <button class="  dark:text-black     p-2 rounded-xl hover:bg-[#EE4B2B] transition duration-500  border bg-[#DBD7D7] shadow-xl"  ><i class="ri-cursor-line"></i> Sebete Elave Et</button>
+                <button class="  dark:text-black   border hover:bg-[#EE4B2B] transition duration-500  rounded-xl bg-[#DBD7D7] shadow-xl w-[35px]" ><i class="ri-poker-hearts-line"></i></button>
+              </div>
+
+      </div>
+   
+    </div>
+
+
+
+
+    
+
+
+
+  </div>
+
+
+
+
+
+
+
+ 
+  <button id="toTop" aria-label="Наверх" title="Наверх"
+  class="fixed right-4 bottom-4 p-3 rounded-full bg-[#ff0000] text-white shadow-lg focus:outline-none">
+  ↑
+  </button>
+
+
+  
+  <div class="coxsatilanlar mt-18">
+    <p class="  text-gray-900 dark:text-gray-200 transition-colors duration-500   text-[#f00] text-[18px]">Özəl təkliflər</p>
+    <h1 class=" text-gray-900 dark:text-gray-200 transition-colors duration-500   font-bold text-[28px]">Şərtlər indi daha da sadələşdi!</h1>
+  </div>
+  
+  <div class="border relative bottom-10 left-140   w-[618px] p-2 rounded-2xl bg-gray-100 ">
+    
+
+    <ul class="flex gap-4">
+      <li class="text-gray-500 hover:underline hover:text-black">Smartfonlar</li>
+      <li class="text-gray-500 hover:underline hover:text-black">Kondisionerlər</li>
+      <li class="text-gray-500 hover:underline hover:text-black">Soyuducular</li>
+      <li class="text-gray-500 hover:underline hover:text-black">Velosipedlər</li>
+      <li class="text-gray-500 hover:underline hover:text-black">Hovuzlar</li>
+      <li class="text-gray-500 hover:underline  hover:text-black">Çamadanlar</li>
+    </ul>
+
+  </div>
+
+
+
+
+
+  <div id="properties-list-2" class="flex flex-row flex-wrap gap-4 mt-10  h-[1500px]  ">
+
+    <div class="honor   dark:bg-gray-800 dark:border-gray-700 dark:text-gray-200 transition-colors duration-500   mt-12 p-4 rounded-2xl w-[240px] h-[380px] bg-white shadow-xl bg-[#EDE8E8]">
+      
+      <img class=" mb-5 relative bottom-[48px] border shadow-2xl rounded-2xl left-8   w-[140px]" src="https://new.bakuelectronics.az/_next/image?url=https%3A%2F%2Fimg.b-e.az%2Fmedia%2FinventImages%2FinventImages%2FHONOR_X9C_JADE_CYAN_1.webp&w=750&q=75" alt="">
+   
+
+
+
+
+      
+     
+     
+
+      <div class="honorstext  relative bottom-[64px]">
+        
+              <div class="  star flex gap-4">
+                <i class=" text-[#880808] ri-star-line"></i>
+                <p>0</p>
+                <i class="text-[#880808] ri-chat-1-line"></i>
+                <p>0</p>
+              </div>
+              <p class="text-[19px] mt-2  ">Smartfon HONOR X9C <br> 12GB/256GB JADE CYAN</p>
+        
+              <div class="price mt-2 ">
+                <p class=" text-gray text-[14px]"> <s>579.99 ₼</s> </p>
+                <p>439.99 ₼</p>
+              </div>
+        
+              <div class="buttons flex mt-4 gap-1">
+                <button class="  dark:text-black     p-2 rounded-xl hover:bg-[#EE4B2B] transition duration-500  border bg-[#DBD7D7] shadow-xl"  ><i class="ri-cursor-line"></i> Sebete Elave Et</button>
+                <button class="  dark:text-black   border hover:bg-[#EE4B2B] transition duration-500  rounded-xl bg-[#DBD7D7] shadow-xl w-[35px]" ><i class="ri-poker-hearts-line"></i></button>
+              </div>
+
+      </div>
+   
+    </div>
+
+
+
+
+    
+
+
+
+  </div>
+
+
+
+
+
+
+
+ 
+
+
+
+  </main>
+
+
+
+
+
+  
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+    <script src="swiper.js"></script>
+    <script src="scroller.js"></script>
+  </body>
+  
+</html>
+
+
+
+
+
+
+
