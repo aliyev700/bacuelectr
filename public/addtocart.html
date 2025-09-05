@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+
+<body class="bg-gray-50">
+
+    <div class="max-w-7xl mx-auto py-10 px-4 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+  
+       
+        <div class="lg:col-span-2 bg-white shadow rounded-lg p-6">
+          <h2 class="text-lg font-semibold mb-4">Your Cart</h2>
+         
+          <ul id="cartItems" class="divide-y"></ul>
+  
+          
+        </div>
+  
+     
+        <div class="bg-white shadow rounded-lg p-6">
+          <h2 class="text-lg font-semibold mb-4">Cart Totals</h2>
+          <div class="space-y-2">
+            <div class="flex justify-between">
+              <span>Subtotal</span>
+              <span id="cartTotal">0.00 ₼</span>
+            </div>
+            <div class="flex justify-between items-center">
+            
+              </select>
+            </div>
+            <div class="flex justify-between font-semibold border-t pt-2">
+              <span>Total</span>
+              <span id="cartTotalFinal">0.00 ₼</span>
+            </div>
+          </div>
+  
+          <div class="mt-6 space-y-3">
+            <button class="w-full bg-gray-800 text-white py-2 rounded">Amazon </button>
+       
+            <button class="w-full bg-yellow-400 text-black py-2 rounded   ">PayPal</button>
+ 
+            <div class="flex gap-2">
+                <button class="px-4 py-2 bg-red-500 text-white rounded" id="clearCartBtn">Clear Cart</button>
+              
+        
+              </div>
+              
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  
+   
+    <script src="cart.js"></script>
+  </body>
+  
+</html>
