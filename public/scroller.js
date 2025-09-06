@@ -1,4 +1,4 @@
-// Скрыть лоадер при готовности DOM
+
 function hideLoader() {
     const loader = document.getElementById('loader');
     if (loader) loader.remove();
@@ -9,7 +9,7 @@ function hideLoader() {
     hideLoader();
   }
 
-  // Кнопка «Наверх» — плавный скролл
+
   document.getElementById('toTop').addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });

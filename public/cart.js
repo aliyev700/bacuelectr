@@ -1,6 +1,4 @@
-// -------------------------------
-// Инициализация корзины
-// -------------------------------
+
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
 
@@ -27,7 +25,7 @@ function renderCart() {
        
         <div>
           <p class="font-medium">${item.product}</p>
-          <p class="text-sm text-gray-500">Color: ${item.color || 'Default'} | Size: ${item.size || 'M'}</p>
+          <p class="text-sm text-gray-500">Color: ${item.name || 'Default'} | Size: ${item.memory || '256gb'}</p>
         </div>
       </div>
 
