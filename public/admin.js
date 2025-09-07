@@ -1,3 +1,17 @@
+
+
+const token = localStorage.getItem("token");
+
+if (!token) {
+  alert("Siz daxil olmalısınız!");
+  window.location.href = "login.html";
+}
+
+
+
+
+
+
 const LOCAL_BASE = "http://localhost:3000";
 const form = document.getElementById('form');
 

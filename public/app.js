@@ -96,3 +96,14 @@ function addToCart(product, price, quantity) {
   alert(`${product} добавлен в корзину!`);
 }
 
+
+
+const logoutBtn = document.getElementById("logoutBtn");
+
+logoutBtn.addEventListener("click", () => {
+  
+  localStorage.removeItem("token");
+
+  
+  
+});
