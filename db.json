@@ -1,3 +1,14 @@
 {
-  "products": []
+  "products": [
+    {
+      "id": "578a",
+      "title": "iphone 16 ",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIHulS9VNefwqV9UmnCCo7bpVtScuwDFlBDQ&s",
+      "oldprice": "2000",
+      "price": 1000,
+      "specs": "512",
+      "rating": 12,
+      "comments": 10
+    }
+  ]
 }

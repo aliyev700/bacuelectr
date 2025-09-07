@@ -11,12 +11,12 @@ document.addEventListener("DOMContentLoaded", async () => {
     let password = document.getElementById("password").value.trim();
 
    
-    if (!username) username = "kminchelle";
-    if (!password) password = "0lelplR";
+    if (!username) username = "emilys";
+    if (!password) password = "emilyspass";
 
     console.log("Отправляем:", { username, password });
 
-    result.innerHTML = "⏳ Gözləyin...";
+    result.innerHTML = "Gözlə...";
     result.className = "mt-4 text-sm text-center text-gray-600";
 
     try {
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         result.className = "mt-4 text-sm text-center text-green-600 font-semibold";
         form.style.display = "none";
       } else {
-        result.innerHTML = `❌ ${data.message || "Nöqsan: istifadəçi adı və ya şifrə səhvdir."}`;
+        result.innerHTML = `❌ ${data.message || " istifadəçi adı və ya şifrə səhvdir."}`;
         result.className = "mt-4 text-sm text-center text-red-600 font-semibold";
       }
     } catch (err) {

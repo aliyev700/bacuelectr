@@ -8,7 +8,7 @@ const propertiesList2 = document.getElementById("properties-list-2");
 async function fetchProperties() {
   try {
     const res = await fetch(`${LOCAL_BASE}/products`);
-    if (!res.ok) throw new Error("Ошибка загрузки данных");
+    if (!res.ok) throw new Error("Ошибка ");
     const data = await res.json();
 
     renderProperties(data, propertiesList1);
@@ -57,6 +57,10 @@ function renderProperties(properties, container) {
   });
 
 
+
+
+
+
   container.querySelectorAll(".add-to-cart").forEach((btn) => {
     btn.addEventListener("click", () => {
       const product = btn.getAttribute("data-name");
@@ -93,7 +97,7 @@ function addToCart(product, price, quantity) {
   }
 
   localStorage.setItem("cart", JSON.stringify(cart));
-  alert(`${product} добавлен в корзину!`);
+  alert(`${product} добавлено`);
 }
 
 

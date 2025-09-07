@@ -36,12 +36,12 @@ form.addEventListener('submit', async (e) => {
       body: JSON.stringify(newProperty)
     });
 
-    alert("Product added successfully!");
+    alert("Product elave olundu!");
     form.reset();
 
   } catch (err) {
     console.error(err);
-    alert("Error adding product. Check console.");
+    alert("Error elave olunmadi");
   }
 });
 
