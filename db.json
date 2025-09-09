@@ -9,6 +9,76 @@
       "specs": "512",
       "rating": 12,
       "comments": 10
+    },
+    {
+      "id": "83f6",
+      "title": "Sit et accusamus au",
+      "photo": "Eiusmod consequatur ",
+      "oldprice": "900",
+      "price": 123,
+      "specs": "Occaecat suscipit ma",
+      "rating": 65,
+      "comments": 10
+    },
+    {
+      "id": "178b",
+      "title": "Sed a sit aut nihil ",
+      "photo": "Sunt lorem duis eos ",
+      "oldprice": "341",
+      "price": 623,
+      "specs": "Vero nulla ab dolore",
+      "rating": 20,
+      "comments": 58
+    },
+    {
+      "id": "fa37",
+      "title": "Ipsum praesentium se",
+      "photo": "Sit debitis quis dol",
+      "oldprice": "795",
+      "price": 148,
+      "specs": "Pariatur Consequatu",
+      "rating": 13,
+      "comments": 74
+    },
+    {
+      "id": "bfa7",
+      "title": "Eligendi est ut nes",
+      "photo": "Dolore commodi velit",
+      "oldprice": "504",
+      "price": 481,
+      "specs": "Cillum deserunt magn",
+      "rating": 6,
+      "comments": 98
+    },
+    {
+      "id": "8d79",
+      "title": "Fuga Et omnis cillu",
+      "photo": "In est quis laudanti",
+      "oldprice": "597",
+      "price": 622,
+      "specs": "Quam est commodo au",
+      "rating": 38,
+      "comments": 18
+    },
+    {
+      "id": "9f33",
+      "title": "Velit lorem quod com",
+      "photo": "Expedita eiusmod omn",
+      "oldprice": "390",
+      "price": 668,
+      "specs": "Quasi corporis reici",
+      "rating": 44,
+      "comments": 51
+    },
+    {
+      "id": "e5a0",
+      "title": "Rerum laboris repudi",
+      "photo": "Quos iure mollit rer",
+      "oldprice": "664",
+      "price": 659,
+      "specs": "Duis quidem quae eaq",
+      "rating": 90,
+      "comments": 59
     }
   ]
 }

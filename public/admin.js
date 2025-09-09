@@ -74,8 +74,8 @@ form.addEventListener('submit', async (e) => {
     copyPhotoBtn.addEventListener('click', () => {
       readyLinkInput.select();
       navigator.clipboard.writeText(readyLinkInput.value)
-        .then(() => alert("Iphone's URL "))
-        .catch(() => alert("Не удалось скопировать."));
+        .then(() => alert("Iphone "))
+        .catch(() => alert("Не  скопировать."));
     });
   
     const readyLinkInput1 = document.getElementById('photo-ready-link1');
