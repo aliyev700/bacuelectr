@@ -1,4 +1,3 @@
-
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
 
@@ -82,3 +81,19 @@ clearCartBtn.addEventListener("click", () => {
 });
 
 renderCart();
+
+
+
+
+function addToCart(product) {
+  fetch("http://localhost:3000/cart", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(product)
+  })
+  .then(res => res.json())
+  .then(data => {
+    console.log("sebete alve olundu", data);
+  })
+  .catch(err => console.error("errror", err));
+}
